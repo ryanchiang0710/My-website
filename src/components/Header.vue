@@ -2,7 +2,7 @@
 import {ArrowRightIcon, ChevronDoubleDownIcon} from '@heroicons/vue/solid'
 </script>
 <template>
-	<section class="flex flex-col justify-center items-center md:px-20 min-h-screen" :style="{'background-image':'url(https://www.fmsh.fr/sites/default/files/styles/programme_page_img_principale/public/image/hacking-dea.jpg?itok=5GjSnZwc)'}">
+	<section class="flex flex-col justify-center items-center md:px-20 min-h-screen" :style="{'background-image':'url(https://www.internationalcitizens.com/wp-content/uploads/2019/12/maildelivery2.jpg)'}">
 		<div class="flex flex-col w-full py-12 px-4 lg:px-0 justify-center items-center">
 			<p class="text-4x1 text-white font-bold">$Whoami: <span class="text-white">江承恩</span></p>
 			<h1 class="text-6xl items-center justify-center text-white mt-1 font-extrabold">
