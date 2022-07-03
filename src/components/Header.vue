@@ -2,7 +2,7 @@
 import {ArrowRightIcon, ChevronDoubleDownIcon} from '@heroicons/vue/solid'
 </script>
 <template>
-	<section class="flex flex-col justify-center items-center md:px-20 min-h-screen" :style="{'background-image':'url(https://www.internationalcitizens.com/wp-content/uploads/2019/12/maildelivery2.jpg)'}">
+	<section class="flex flex-col justify-center items-center md:px-20 min-h-screen" :style="{'background-image':'url(https://th.bing.com/th/id/R.bd6ebbc027b7daa964159615a02f7d1d?rik=yApWh82PFiqwag&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fKu4Vg2e.jpg&ehk=Hrm%2fl6a8q7FDKmMF2IDpBM%2fERdKKzqRwpDt5Jm6E48I%3d&risl=&pid=ImgRaw&r=0)'}">
 		<div class="flex flex-col w-full py-12 px-4 lg:px-0 justify-center items-center">
 			<p class="text-4x1 text-white font-bold">$Whoami: <span class="text-white">江承恩</span></p>
 			<h1 class="text-6xl items-center justify-center text-white mt-1 font-extrabold">
