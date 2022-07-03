@@ -39,13 +39,13 @@ const submit = () => {
 					<div>
 						<PhoneIcon class="w-6 h-6"/>
 					</div>
-					<p>0963-612-277</p>
+					<p class="font-bold">0963-612-277</p>
 				</div>
 				<div class="flex items-center gap-4 mt-3">
 					<div>
 						<MailIcon class="w-6 h-6"/>
 					</div>
-					<p>ryanchiang0710@gmail.com</p>
+					<p class="font-bold">ryanchiang0710@gmail.com</p>
 				</div>
 			</div>
 		</div>
@@ -54,7 +54,7 @@ const submit = () => {
 				<h1 class="text-4xl text-gray-800 font-extrabold mb-6">聯絡表單</h1>
 				<form class="block w-full flex flex-col items-start" @submit.prevent="submit">
 					<label
-						class="text-gray-800 text-sm"
+						class="text-gray-800 text-sm font-bold"
 						for="name">名字</label>
 					<input id="name"
 					       type="text"
@@ -63,7 +63,7 @@ const submit = () => {
 					       v-model="name"
 					/>
 
-					<label class="text-gray-800 text-sm mt-4"
+					<label class="text-gray-800 text-sm mt-4 font-bold"
 					       for="Email">電子郵件</label>
 					<input id="Email"
 					       type="email"
@@ -72,7 +72,7 @@ const submit = () => {
 					       v-model="email"
 					/>
 
-					<label class="text-gray-800 text-sm mt-4"
+					<label class="text-gray-800 text-sm mt-4 font-bold"
 					       for="message">你要講什麼</label>
 					<textarea id="message"
 					          class="w-full border-gray-300 border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-indigo-700"
@@ -82,7 +82,7 @@ const submit = () => {
 					></textarea>
 
 					<button
-						class="self-center bg-gray-800 hover:bg-indigo-600 rounded text-white px-8 py-3 text-sm">
+						class="self-center bg-gray-800 hover:bg-indigo-600 rounded text-white px-8 py-3 text-sm font-bold">
 						送出
 					</button>
 				</form>

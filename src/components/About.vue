@@ -29,7 +29,7 @@ const skills = [
 
 	<section id="about" class="pt-32 md:px-16 bg-green-800">
 		<div class="flex flex-col md:flex-row justify-between items-center md:px-8 md:mb-4">
-			<h1 class="text-2xl md:text-4xl text-white font-bold">
+			<h1 class="text-2xl md:text-4xl text-white font-bold flex flex-col items-center">
 				關於我
 			</h1>
 			<button
@@ -44,9 +44,9 @@ const skills = [
 				v-for="skill in skills">
 				>
 				<div
-					class="px-10 sm:px-20 py-3 sm:py-6 shadow-lg w-11/12 mx-auto bg-white rounded z-20 relative">
-					<h4 class="text-gray-800 text-lg text-center mb-2">{{ skill.title }}</h4>
-					<p class="text-gray-600 text-lg text-center mb-2">{{ skill.description }}</p>
+					class="px-10 sm:px-20 py-3 sm:py-6 shadow-lg w-11/12 mx-auto bg-gray-200 rounded z-20 relative">
+					<h4 class="font-extrabold text-black text-lg text-center mb-2 ">{{ skill.title }}</h4>
+					<p class="text-black text-lg text-center mb-2">{{ skill.description }}</p>
 				</div>
 			</div>
 		</div>

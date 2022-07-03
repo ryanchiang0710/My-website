@@ -4,12 +4,12 @@ import {ArrowRightIcon} from '@heroicons/vue/outline';
 const activities = [
 	{
 		title: '社交工程',
-		description: '點我',
+		description: '前往',
 		url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
 	},
 	{
-		title: '你知道嗎?',
-		description: '兩個北七會一起死，因為:87+87=174'
+		title: '資安的重要性',
+		description: '現在的科技時代，需要資安的存在'
 	}
 ]
 const makeClass = (i) => (
@@ -24,10 +24,10 @@ const makeClass = (i) => (
 			<div :class="makeClass(i)">
 				<div class="w-full sm:w-1/2 relative h-64 sm:h-auto">
 					<img alt="活動圖片" class="w-full object-cover absolute inset-0 object-center h-full"
-					     loading="lazy" :src="activity.image ?? 'https://i.ytimg.com/vi/xTIuJ8KB98w/hqdefault.jpg'"/>
+					     loading="lazy" :src="activity.image ?? 'https://rockyknolltech.com/wp-content/uploads/sites/725/2021/03/bigstock-Cyber-Security-Data-Protection-398556191-scaled.jpg'"/>
 				</div>
 				<div
-					class="container mx-auto w-full sm:w-1/2 py-8 sm:py-16 lg:py-32 px-6 sm:px-12 lg:px-24 bg-gray-100">
+					class="container mx-auto w-full sm:w-1/2 py-8 sm:py-16 lg:py-32 px-6 sm:px-12 lg:px-24 bg-gray-200">
 					<h3 class="text-gray-800 text-2xl mb-3 leading-normal tracking-normal font-bold">{{
 							activity.title
 						}}</h3>
@@ -38,7 +38,7 @@ const makeClass = (i) => (
 						v-if="activity.url"
 						:href="activity.url"
 						target="_blank"
-						class="focus:outline-none rounded py-3 px-4 text-black border border-black flex justify-center items-center text-base hover:bg-gray-200 bg-transparent">
+						class="focus:outline-none rounded py-3 px-4 text-black border border-black flex justify-center items-center text-base hover:bg-blue-200 bg-transparent">
 						社交工程範例
 					</a>
 				</div>
@@ -48,7 +48,7 @@ const makeClass = (i) => (
 		<div class="mb-16 sm:mb-32 container mx-auto px-6 container">
 			<button
 				class="focus:outline-none my-8 flex items-center text-xl font-regular border-b border-black pb-2 mr-3">
-				<a href="https://parade.com/1199611/marynliles/did-you-know-facts/" target="_blank">所有經歷</a>
+				<a href="https://www.comptia.org/content/articles/why-is-cybersecurity-important#:~:text=So%20much%20has%20been%20written%20about%20cybersecurity%20that,we%20use%20every%20day%2C%20we%20are%20living%20online." target="_blank">了解資安的重要性</a>
 				<ArrowRightIcon class="ml-1 w-5 h-5"/>
 			</button>
 		</div>
