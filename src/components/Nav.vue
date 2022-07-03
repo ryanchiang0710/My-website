@@ -8,7 +8,7 @@ const toggleMenu = () => mobileMenu.value = !mobileMenu.value
 <template>
 	<header class="mx-auto px-4 bg-blue-200 fixed w-full z-50 flex items-center justify-between">
 		<a href="#" :class="{hidden: mobileMenu}">
-			<img class="w-16" loading="lazy" src="../assets/logo.png" alt="MyLogo"/>
+			<img class="w-16" loading="lazy" src="../assets/Untitled.png" alt="MyLogo"/>
 		</a>
 		<div
 			:class="
@@ -29,7 +29,7 @@ const toggleMenu = () => mobileMenu.value = !mobileMenu.value
 				</li>
 				<li class="md:mr-10 flex items-center text-gray-800 hover:text-gray-600 pt-10 md:pt-0">
 					<a href="#about"
-					   @click="mobileMenu = false">關於我</a>
+					   @click="mobileMenu = false">我會的東西</a>
 				</li>
 
 				<li class="md:mr-0 flex items-center text-gray-800 hover:text-gray-600 pt-10 md:pt-0">

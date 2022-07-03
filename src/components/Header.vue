@@ -2,18 +2,18 @@
 import {ArrowRightIcon, ChevronDoubleDownIcon} from '@heroicons/vue/solid'
 </script>
 <template>
-	<section class="bg-blue-200 flex flex-col justify-center items-center md:px-20 min-h-screen">
-		<div class="flex flex-col w-full py-12 px-4 lg:px-0 justify-center items-end">
-			<p class="text-2xl text-gray-800 font-medium">哈囉！我是<span class="text-blue-400">王小明</span></p>
-			<h1 class="text-5xl text-right text-gray-800 mt-1 font-extrabold">
-				一個喜歡寫程式的高中生
+	<section class="flex flex-col justify-center items-center md:px-20 min-h-screen" :style="{'background-image':'url(https://th.bing.com/th/id/OIP.l-7ci-qyVMc6vvCMlOHBQQHaEo?pid=ImgDet&rs=1)'}">
+		<div class="flex flex-col w-full py-12 px-4 lg:px-0 justify-center items-center">
+			<p class="text-3x1 text-green-800 font-bold">哈囉！我是<span class="text-blue-400">江承恩</span></p>
+			<h1 class="text-5xl items-center justify-center text-green-400 mt-1 font-extrabold">
+				一個喜歡資訊安全的高中生
 			</h1>
-			<p class="text-lg text-gray-600 font-light pt-8">
-				[自我介紹]
+			<p class="text-lg text-white font-bold pt-8">
+				<a href="#about" >[關於我]</a>
 			</p>
 			<a
 				href="#contact"
-				class="mt-3 flex items-center text-xl font-regular pb-2">
+				class="mt-3 flex items-center text-xl font-bold pb-2 text-gray-400">
 				聯絡我
 				<ArrowRightIcon class="ml-1 w-5 h-5"/>
 			</a>

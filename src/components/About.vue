@@ -7,27 +7,27 @@ const skills = [
 		description: '開發網頁、網站、網路應用程式。',
 	},
 	{
-		title: '寫作',
-		description: '寫作文章、網誌',
+		title: '資訊安全',
+		description: '抓漏洞、未來協助大公司',
 	},
 	{
-		title: '吹泡泡',
-		description: '吹出一顆又一顆泡泡',
+		title: '很會數學',
+		description: '1到10年級數學A+',
 	},
 	{
-		title: '煮飯',
-		description: '煮出美味佳餚',
+		title: '很會打電動',
+		description: '幾乎每一場PUBG都是MVP',
 	},
 	{
-		title: '種植物',
-		description: '自己種東西來吃',
+		title: '國文爛',
+		description: '一篇300字文章都寫不出來',
 	},
 ]
 </script>
 
 <template>
 
-	<section id="about" class="pt-32 md:px-16 bg-gray-800">
+	<section id="about" class="pt-32 md:px-16 bg-green-800">
 		<div class="flex flex-col md:flex-row justify-between items-center md:px-8 md:mb-4">
 			<h1 class="text-2xl md:text-4xl text-white font-bold">
 				關於我

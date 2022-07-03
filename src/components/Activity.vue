@@ -3,13 +3,13 @@ import {ArrowRightIcon} from '@heroicons/vue/outline';
 
 const activities = [
 	{
-		title: 'Web開發挑戰營',
-		description: '讓你探索自己的網頁技術，並學習如何撰寫網頁。',
-		url: 'https://camp.aplusplus.education'
+		title: '社交工程',
+		description: '點我',
+		url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
 	},
 	{
-		title: '模擬聯合國',
-		description: '模聯合國是一個模擬聯合國的活動，讓你學習如何模擬聯合國。'
+		title: '你知道嗎?',
+		description: '兩個北七會一起死，因為:87+87=174'
 	}
 ]
 const makeClass = (i) => (
@@ -24,7 +24,7 @@ const makeClass = (i) => (
 			<div :class="makeClass(i)">
 				<div class="w-full sm:w-1/2 relative h-64 sm:h-auto">
 					<img alt="活動圖片" class="w-full object-cover absolute inset-0 object-center h-full"
-					     loading="lazy" :src="activity.image ?? 'https://source.unsplash.com/random'"/>
+					     loading="lazy" :src="activity.image ?? 'https://i.ytimg.com/vi/xTIuJ8KB98w/hqdefault.jpg'"/>
 				</div>
 				<div
 					class="container mx-auto w-full sm:w-1/2 py-8 sm:py-16 lg:py-32 px-6 sm:px-12 lg:px-24 bg-gray-100">
@@ -39,7 +39,7 @@ const makeClass = (i) => (
 						:href="activity.url"
 						target="_blank"
 						class="focus:outline-none rounded py-3 px-4 text-black border border-black flex justify-center items-center text-base hover:bg-gray-200 bg-transparent">
-						檢視心得
+						社交工程範例
 					</a>
 				</div>
 			</div>
@@ -48,7 +48,7 @@ const makeClass = (i) => (
 		<div class="mb-16 sm:mb-32 container mx-auto px-6 container">
 			<button
 				class="focus:outline-none my-8 flex items-center text-xl font-regular border-b border-black pb-2 mr-3">
-				所有經歷
+				<a href="https://parade.com/1199611/marynliles/did-you-know-facts/" target="_blank">所有經歷</a>
 				<ArrowRightIcon class="ml-1 w-5 h-5"/>
 			</button>
 		</div>
